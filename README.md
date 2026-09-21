@@ -11,21 +11,21 @@ The generated audio is already included in [`output/`](output/). Use the players
 
 | Track | Audio |
 | --- | --- |
-| Mixed 0 | [mixed_0.wav](output/mixed_0.wav) |
-| Mixed 1 | [mixed_1.wav](output/mixed_1.wav) |
-| Mixed 2 | [mixed_2.wav](output/mixed_2.wav) |
-| Mixed 3 | [mixed_3.wav](output/mixed_3.wav) |
-| Mixed 4 | [mixed_4.wav](output/mixed_4.wav) |
+| Mixed 0 | <audio controls preload="metadata"><source src="output/mixed_0.wav" type="audio/wav">[Download mixed_0.wav](output/mixed_0.wav)</audio> |
+| Mixed 1 | <audio controls preload="metadata"><source src="output/mixed_1.wav" type="audio/wav">[Download mixed_1.wav](output/mixed_1.wav)</audio> |
+| Mixed 2 | <audio controls preload="metadata"><source src="output/mixed_2.wav" type="audio/wav">[Download mixed_2.wav](output/mixed_2.wav)</audio> |
+| Mixed 3 | <audio controls preload="metadata"><source src="output/mixed_3.wav" type="audio/wav">[Download mixed_3.wav](output/mixed_3.wav)</audio> |
+| Mixed 4 | <audio controls preload="metadata"><source src="output/mixed_4.wav" type="audio/wav">[Download mixed_4.wav](output/mixed_4.wav)</audio> |
 
 ### Separated sources
 
 | Source | Audio |
 | --- | --- |
-| Source 0 | [split_0.wav](output/split_0.wav) |
-| Source 1 | [split_1.wav](output/split_1.wav) |
-| Source 2 | [split_2.wav](output/split_2.wav) |
-| Source 3 | [split_3.wav](output/split_3.wav) |
-| Source 4 | [split_4.wav](output/split_4.wav) |
+| Source 0 | <audio controls preload="metadata"><source src="output/split_0.wav" type="audio/wav">[Download split_0.wav](output/split_0.wav)</audio> |
+| Source 1 | <audio controls preload="metadata"><source src="output/split_1.wav" type="audio/wav">[Download split_1.wav](output/split_1.wav)</audio> |
+| Source 2 | <audio controls preload="metadata"><source src="output/split_2.wav" type="audio/wav">[Download split_2.wav](output/split_2.wav)</audio> |
+| Source 3 | <audio controls preload="metadata"><source src="output/split_3.wav" type="audio/wav">[Download split_3.wav](output/split_3.wav)</audio> |
+| Source 4 | <audio controls preload="metadata"><source src="output/split_4.wav" type="audio/wav">[Download split_4.wav](output/split_4.wav)</audio> |
 
 For a reference comparison, the supplied target is [`data/correct_split_0.wav`](data/correct_split_0.wav). The learned matrix is saved as [`output/W.txt`](output/W.txt).
 
